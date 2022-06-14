@@ -1,0 +1,1266 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .menu .nav {
+        font-size: 12px;
+    }
+
+    .company-text h1 {
+        font-size: 40px;
+    }
+
+    .map-png {
+        width: 470px;
+    }
+
+    .about-pic {
+        width: 40%;
+    }
+
+    .about-text h2.text-design {
+        font-size: 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 1025px) {
+
+    .container {
+        width: 1025px;
+    }
+
+    .nav ul li {
+        margin: 0px 15px 0px 0px;
+    }
+
+    .about-text h2.text-design {
+        right: 11px;
+    }
+
+    .meta-container p {
+        font-size: 24px;
+    }
+
+    .task-content h3 {
+        font-size: 15px;
+    }
+
+    .item-content h3 {
+        font-size: 16px;
+    }
+
+    .values-container {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .values-content h3 {
+        font-size: 30px;
+    }
+
+    .team-content-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 12px;
+    }
+
+    .flex-card-container {
+        justify-content: space-around;
+    }
+}
+
+
+@media screen and (max-width: 769px) {
+    .container {
+        width: 769px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .btn-container {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .otg {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu .nav {
+        display: none;
+    }
+
+    .map-png {
+        width: 253px;
+    }
+
+    .company-text h1 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+
+    .company-text p {
+        font-family: roboto;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .batton-one {
+        margin-bottom: 60px;
+    }
+
+    .about-text h2.text-design {
+        font-size: 60px;
+    }
+
+    .about-me {
+        padding-top: 90px;
+        display: flex;
+        /* position: relative; */
+        flex-direction: column;
+    }
+
+    .about-pic {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text h2.text-design {
+        font-size: 115px;
+    }
+
+    .meta-container p {
+        font-size: 17px;
+    }
+
+    .task {
+        margin-top: 340px;
+    }
+
+    .task-container h2 {
+        font-size: 30px;
+    }
+
+    .task-container h2 span {
+        font-size: 40px;
+    }
+
+    .task-card .one {
+        font-size: 62px;
+    }
+
+    .task-content h3 {
+        font-size: 12px;
+    }
+
+    .task-content::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border: solid 3px #FFE313;
+        border-radius: 15px 30px 15px 80px;
+        position: absolute;
+        bottom: 15px;
+        left: -4px;
+        z-index: 45;
+    }
+
+    .item-content h3 {
+        font-size: 12px;
+    }
+
+    .card-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .task-card-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .task-card {
+        width: 50%;
+        text-align: center;
+    }
+
+    .task-content h3 {
+        font-size: 20px;
+    }
+
+    .values-container {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .values-pic {
+        width: 80%;
+        position: absolute;
+        bottom: 400px;
+        left: 80px;
+    }
+
+    .values-container {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        justify-content: center;
+    }
+
+    .task {
+        margin-top: 340px;
+        padding-bottom: 450px;
+    }
+
+    .team-content-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 12px;
+    }
+
+    .subscribe-container h4 {
+        font-family: Playfair Display;
+        font-size: 80px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.1;
+        text-align: center;
+    }
+
+    .subscribe-content {
+        position: relative;
+        bottom: 70px;
+    }
+
+    .subscribe-container p {
+        font-family: Playfair Display;
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #152546;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .news-card {
+        width: 320px;
+        background-color: #fff;
+        box-shadow: -3px 6px 20px -3px #152546;
+        border-radius: 15px 30px 15px 50px;
+    }
+
+    .news-card p {
+        font-family: Playfair Display;
+        font-size: 14px;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+
+
+    .contact-content {
+        padding-left: 20px;
+    }
+
+    .contact {
+        margin-top: 120px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .google-map {
+        width: 100%;
+    }
+
+    .contact-container {
+        width: 100%;
+        background-color: #152546;
+        padding: 270px 0px;
+    }
+
+    .contact-content {
+        padding-left: 0px;
+    }
+
+    .contact-content h4 {
+        font-family: Playfair Display;
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .tel-mail {
+        font-family: roboto;
+        font-size: 23px;
+        font-weight: 400;
+        color: #fff;
+        padding: 70px 0px;
+        text-align: center;
+    }
+
+    .security {
+        text-align: center;
+    }
+
+    .social {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 552px) and (max-width: 690px) {
+    .map-png {
+        width: 210px;
+    }
+
+    .company-text h1 {
+        font-size: 20px;
+        padding-top: 60px;
+    }
+
+    .company-text p {
+        font-family: roboto;
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .btn-container .btn-one {
+        font-size: 13px;
+        padding: 14px 40px;
+    }
+
+    .btn-container .btn-two {
+        font-size: 13px;
+        padding: 14px 40px;
+    }
+
+    .batton-one {
+        margin-bottom: 40px;
+    }
+
+    .about-pic {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-text h2.text-design {
+        font-size: 60px;
+    }
+
+    .about-text h2 {
+        font-family: Playfair Display;
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 44px;
+    }
+
+    .about-content {
+        margin-top: -105px;
+    }
+
+    .meta-container img {
+        max-width: 80px;
+        max-height: 60px;
+        position: relative;
+        top: 53px;
+    }
+
+    .meta-container h2 {
+        font-family: Playfair Display;
+        font-size: 100px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #152546;
+        opacity: 0.1;
+    }
+
+    .meta-container p {
+        font-size: 11px;
+    }
+
+    .meta-container p {
+        left: 90px;
+    }
+
+    .task-card {
+        width: 80%;
+        text-align: center;
+    }
+
+    .task {
+        margin-top: 340px;
+        padding-bottom: 310px;
+    }
+
+    .subscribe-container h4 {
+        font-family: Playfair Display;
+        font-size: 47px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.1;
+        text-align: center;
+    }
+
+
+    .values-pic {
+        width: 80%;
+        position: absolute;
+        bottom: 400px;
+        left: 52px;
+    }
+
+    .values-content {
+        color: #152546;
+        width: 50%;
+    }
+
+    .icon-text-r h4 {
+        font-family: Playfair Display;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: end;
+    }
+
+    .icon-text h4 {
+        font-family: Playfair Display;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: end;
+    }
+
+    .subscribe-container h4 {
+        font-family: Playfair Display;
+        font-size: 60px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.1;
+        text-align: center;
+    }
+
+    .subscribe-container p {
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #152546;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .item-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 70px;
+    }
+
+    .item-grid div:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .item-grid div:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        /* grid-row-start: 1; */
+        grid-row-end: 1;
+    }
+
+    .subscribe-container .btn::after {
+        content: url(/img/arrows\ 1.png);
+        position: relative;
+        left: 35px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 552px) {
+
+    .container {
+        width: 552px;
+    }
+
+    .subscribe-container .btn::after {
+        content: url(/img/arrows\ 1.png);
+        position: relative;
+        left: 35px;
+        display: none;
+    }
+
+
+    .subscribe-container .btn {
+        margin-left: 0px;
+    }
+
+    .map-png {
+        width: 210px;
+    }
+
+    .company-text h1 {
+        font-size: 20px;
+        padding-top: 60px;
+    }
+
+    .company-text p {
+        font-family: roboto;
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .btn-container .btn-one {
+        font-size: 13px;
+        padding: 14px 40px;
+    }
+
+    .btn-container .btn-two {
+        font-size: 13px;
+        padding: 14px 40px;
+    }
+
+    .batton-one {
+        margin-bottom: 40px;
+    }
+
+    .about-pic {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .about-text h2.text-design {
+        font-size: 60px;
+    }
+
+    .about-text h2 {
+        font-family: Playfair Display;
+        font-size: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 44px;
+    }
+
+    .about-content {
+        margin-top: -105px;
+    }
+
+    .meta-container img {
+        max-width: 80px;
+        max-height: 60px;
+        position: relative;
+        top: 53px;
+    }
+
+    .meta-container h2 {
+        font-family: Playfair Display;
+        font-size: 100px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #152546;
+        opacity: 0.1;
+    }
+
+    .meta-container p {
+        font-size: 11px;
+    }
+
+    .meta-container p {
+        left: 90px;
+    }
+
+    .task-card {
+        width: 80%;
+        text-align: center;
+    }
+
+    .task {
+        margin-top: 340px;
+        padding-bottom: 310px;
+    }
+
+    .values-pic {
+        width: 80%;
+        position: absolute;
+        bottom: 400px;
+        left: 52px;
+    }
+
+    .values-content {
+        color: #152546;
+        width: 50%;
+    }
+
+    .icon-text-r h4 {
+        font-family: Playfair Display;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: end;
+    }
+
+    .icon-text h4 {
+        font-family: Playfair Display;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: end;
+    }
+
+    .subscribe-container h4 {
+        font-family: Playfair Display;
+        font-size: 60px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.1;
+        text-align: center;
+    }
+
+    .subscribe-container p {
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #152546;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .item-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 70px;
+    }
+
+    .item-grid div:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .item-grid div:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        /* grid-row-start: 1; */
+        grid-row-end: 1;
+    }
+}
+
+
+@media screen and (max-width: 552px) {
+    .container {
+        width: 552px;
+    }
+
+
+    .meta-container h2 {
+        font-family: Playfair Display;
+        font-size: 80px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #152546;
+        opacity: 0.1;
+    }
+
+    .meta-container img {
+        max-width: 90px;
+        max-height: 60px;
+        position: relative;
+        top: 36px;
+    }
+
+    .meta-container p {
+        left: 73px;
+    }
+
+    .icon-text-r h4 {
+        font-family: Playfair Display;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: end;
+    }
+
+    .icon-text h4 {
+        font-family: Playfair Display;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: end;
+    }
+
+    .team-container h2 {
+        font-family: Playfair Display;
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 110px 0px 70px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .container {
+        width: 320px;
+    }
+
+    .map-png {
+        width: 155px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .company-text h1 {
+        font-size: 15px;
+        padding-top: 60px;
+    }
+
+    .company-text p {
+        font-size: 9px;
+    }
+
+    .btn-container .btn-one {
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+
+
+    .btn-container .btn-two {
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+
+    .batton-one {
+        margin-bottom: 16px;
+    }
+
+    .about-text h2.text-design {
+        font-size: 50px;
+    }
+
+    .about-content {
+        margin-top: -97px;
+    }
+
+
+    .problem-text h2 {
+        font-size: 25px;
+        padding-bottom: 72px;
+    }
+
+    .meta-container h2 {
+        font-size: 55px;
+    }
+
+    .meta-container p {
+        left: 0px;
+    }
+
+    .meta-container p {
+        font-size: 10px;
+    }
+
+    .task-container h2 {
+        font-size: 24px;
+    }
+
+    .task-container h2 span {
+        font-size: 24px;
+    }
+
+    .task-card .one {
+        font-size: 50px;
+    }
+
+    .task-content h3 {
+        font-size: 14px;
+    }
+
+    .proceed-container h2 {
+        font-size: 24px;
+    }
+
+    .item-grid div:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .item-grid div:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-end: 1;
+    }
+
+    .item-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 70px;
+    }
+
+    .values-pic {
+        width: 80%;
+        position: absolute;
+        bottom: 1460px;
+        left: 35px;
+    }
+
+    .team-content-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        gap: 12px;
+    }
+
+    .values {
+        padding-top: 0px;
+    }
+
+    .values-container {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .values-content {
+        color: #152546;
+        width: 100%;
+    }
+
+    .values-content h3 {
+        font-size: 40px;
+    }
+
+    .icon-text {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column-reverse;
+    }
+
+    .icon-text-r {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .icon-text h4 {
+        font-family: Playfair Display;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: end;
+        margin-bottom: 70px;
+    }
+
+    .icon-text-r h4 {
+        font-family: Playfair Display;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: end;
+        margin-bottom: 70px;
+    }
+
+    .subscribe-container h4 {
+        font-size: 37px;
+    }
+
+    .subscribe-container p {
+        font-size: 14px;
+    }
+
+    .subscribe-content {
+        position: relative;
+        bottom: 35px;
+    }
+
+    .subscribe-container .btn {
+        margin-left: 0px;
+    }
+
+    .subscribe-container .btn::after {
+        content: url(/img/arrows\ 1.png);
+        position: relative;
+        left: 35px;
+        display: none;
+    }
+
+    .news-card {
+        width: 280px;
+        background-color: #fff;
+        box-shadow: -3px 6px 20px -3px #152546;
+        border-radius: 15px 30px 15px 50px;
+    }
+
+    .contact-container {
+        width: 100%;
+        background-color: #152546;
+        padding: 90px 0px;
+    }
+
+
+
+}
+
+
+@media (min-width: 480px) and (max-width: 320px) {
+
+    .map-png {
+        width: 155px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .company-text h1 {
+        font-size: 15px;
+        padding-top: 60px;
+    }
+
+    .company-text p {
+        font-size: 9px;
+    }
+
+    .btn-container .btn-one {
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+
+
+    .btn-container .btn-two {
+        font-size: 13px;
+        padding: 8px 20px;
+    }
+
+    .batton-one {
+        margin-bottom: 16px;
+    }
+
+    .about-text h2.text-design {
+        font-size: 50px;
+    }
+
+    .about-content {
+        margin-top: -97px;
+    }
+
+
+    .problem-text h2 {
+        font-size: 25px;
+        padding-bottom: 72px;
+    }
+
+    .meta-container h2 {
+        font-size: 55px;
+    }
+
+    .meta-container p {
+        left: 0px;
+    }
+
+    .meta-container p {
+        font-size: 10px;
+    }
+
+    .task-container h2 {
+        font-size: 24px;
+    }
+
+    .task-container h2 span {
+        font-size: 24px;
+    }
+
+    .task-card .one {
+        font-size: 50px;
+    }
+
+    .task-content h3 {
+        font-size: 14px;
+    }
+
+    .proceed-container h2 {
+        font-size: 24px;
+    }
+
+    .item-grid div:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .item-grid div:nth-child(5) {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-end: 1;
+    }
+
+    .item-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 70px;
+    }
+
+    .values-pic {
+        width: 80%;
+        position: absolute;
+        bottom: 1460px;
+        left: 35px;
+    }
+
+    .team-content-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        gap: 12px;
+    }
+
+    .values {
+        padding-top: 0px;
+    }
+
+    .values-container {
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .values-content {
+        color: #152546;
+        width: 100%;
+    }
+
+    .values-content h3 {
+        font-size: 40px;
+    }
+
+    .icon-text {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column-reverse;
+    }
+
+    .icon-text-r {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .icon-text h4 {
+        font-family: Playfair Display;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: end;
+        margin-bottom: 70px;
+    }
+
+    .icon-text-r h4 {
+        font-family: Playfair Display;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: end;
+        margin-bottom: 70px;
+    }
+
+    .subscribe-container h4 {
+        font-size: 37px;
+    }
+
+    .subscribe-container p {
+        font-size: 14px;
+    }
+
+    .subscribe-content {
+        position: relative;
+        bottom: 35px;
+    }
+
+    .subscribe-container .btn {
+        margin-left: 0px;
+    }
+
+    .subscribe-container .btn::after {
+        content: url(/img/arrows\ 1.png);
+        position: relative;
+        left: 35px;
+        display: none;
+    }
+
+    .news-card {
+        width: 280px;
+        background-color: #fff;
+        box-shadow: -3px 6px 20px -3px #152546;
+        border-radius: 15px 30px 15px 50px;
+    }
+
+    .contact-container {
+        width: 100%;
+        background-color: #152546;
+        padding: 90px 0px;
+    }
+
+
+    .subscribe-container h4 {
+        font-family: Playfair Display;
+        font-size: 55px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.1;
+        text-align: center;
+    }
+
+    .subscribe-container .btn::after {
+        content: url(/img/arrows\ 1.png);
+        position: relative;
+        left: 35px;
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 410px;
+    }
+
+    .map-png {
+        width: 180px;
+      }
+
+    .problem-text h2 {
+        font-family: Playfair Display;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 138px;
+        padding-bottom: 72px;
+    }
+
+    .meta-container h2 {
+        font-family: Playfair Display;
+        font-size: 60px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #152546;
+        opacity: 0.1;
+    }
+
+    .meta-container img {
+        max-width: 60px;
+        max-height: 35px;
+        position: relative;
+        top: 36px;
+    }
+
+    .meta-container p {
+        left: 22px;
+    }
+
+    .proceed-container h2 {
+        font-family: Playfair Display;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 70px;
+    }
+
+    .values-content h3 {
+        font-size: 20px;
+    }
+
+    .subscribe-container h4 {
+        font-family: Playfair Display;
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #000000;
+        opacity: 0.1;
+        text-align: center;
+    }
+
+    .card-container {
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+
+
+
+
+
+
+
+}
+
+
+
+/* 
+320px — 480px: мобільні;
+481px — 768px: планшети;
+769px — 1024px: маленькі екрани, ноутбуки;
+1025px — 1200px: великі екрани;
+1201px і більше — дуже великі екрани, телевізори. 
+*/

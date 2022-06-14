@@ -1,0 +1,848 @@
+/* Clear css */
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul[class],
+ol[class] {
+    padding: 0;
+    margin: 0;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul[class],
+li,
+ol[class] {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+body {
+    width: 100%;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif, 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    color: #152546;
+}
+
+header {
+    width: 100%;
+    background: url(../img/BG-1.png) no-repeat center top/cover;
+    padding-top: 35px;    
+}
+
+.container {
+    max-width: 1209px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0px 24px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img .main-logo {
+    width: 157px;
+}
+
+.menu .nav {
+    width: 100%;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0px 27px 0px 0px;
+}
+
+ul li a {
+    color: #fff;
+}
+
+ul li a:hover {
+    color: #FFE313;
+}
+
+#color-link {
+    color: #152546;
+}
+
+#color-link:hover {
+    color: #FFE313;
+}
+
+
+/* Перший екран */
+
+.otg {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.company-text h1 {
+    padding-top: 185px;
+    font-family: Playfair Display;
+    font-size: 51px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.company-text p {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.slogan {
+    margin-bottom: 40px;
+}
+
+.btn-container {
+    height: 200px;
+    display: flex;
+}
+
+
+.btn-container .btn-one {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #152546;
+    padding: 18px 67px;
+    border-radius: 10px 10px 10px 35px;
+    background-color: #FFE313;
+    margin-right: 30px;
+}
+
+.btn-container .btn-two {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFE313;
+    padding: 18px 67px;
+    border: solid 1px #FFE313;
+    border-radius: 10px 10px 10px 35px;
+}
+
+.map-png {
+    width: 559px;
+    padding-bottom: 227px; 
+}
+
+/* Про нас */
+
+.about-me {
+    padding-top: 90px;
+    display: flex;
+    position: relative;
+}
+
+.about-pic {
+    width: 50%;
+}
+
+.about-text {
+    width: 50%;
+    
+}
+
+.about-text h2.text-design {
+    font-family: Playfair Display;
+    font-size: 115px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #152546;
+    opacity: 0.1;
+    position: relative;
+    right: 26px;
+}
+
+.about-content {
+    margin-top: -150px;
+}
+
+.about-text h2 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.about-text p {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about-text ul li {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    padding: 10px 0px;
+}
+
+.about-text ul li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background: #152546;
+    position: absolute;
+    left: -40px;
+    top: 18px;   
+}
+
+
+/* Опис проблеми */
+
+.problem-text h2 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 138px;
+    padding-bottom: 72px;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-container .card {
+    background: #fff;
+    border-radius: 15px 25px 15px 70px;
+    box-shadow: -3px 6px 20px -3px #152546;
+    position: relative;
+}
+
+.card-container .card::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: solid 3px #FFE313;
+    border-radius: 15px 25px 15px 70px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.card {
+    width: 45%;
+    margin: 30px 0px;
+}
+
+.card .card-content {
+    padding: 50px 40px;
+}
+
+.card-content h3 {
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-content img {
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.card-content p {
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* МЕТА */
+
+.meta-container {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding-top: 50px;
+}
+
+.meta-container img {
+    max-width: 130px;
+    max-height: 90px;
+    position: relative;
+    top: 53px;
+}
+
+.meta-container h2 {
+    font-family: Playfair Display;
+    font-size: 120px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #152546;
+    opacity: 0.1;
+}
+
+.meta-container p {
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 500;
+    color: #152546;
+    position: absolute;
+    top: 150px;
+    left: 171px;
+}
+
+/* Цілі та завдання 2025 */
+
+.task {
+    margin-top: 500px;
+    background: url(../img/BG-2.png) no-repeat center top/cover;
+}
+
+.task-container {
+    width: 100%;
+}
+
+.task-container h2 {
+    font-family: Playfair Display;
+    font-size: 53px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.task-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.task-container h2 span {
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.task-card {
+    width: 32%;
+    text-align: center;
+}
+
+.task-card .one {
+    font-family: Playfair Display;
+    font-size: 92px;
+    font-weight: 700;
+    color: #152546;
+    position: relative;
+}
+
+.round {
+    position: relative;
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    line-height: 1em;  
+    text-align: center; 
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: -3px 6px 20px -3px #152546;
+    top: 50px;
+    z-index: 50;
+} 
+
+.task-content img {
+    margin: 0 auto;
+    padding: 27px 0px;
+}
+
+.task-content h3 {
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #152546;
+}
+
+.task-content {
+    background: #fff;
+    padding: 50px 20px;
+    border-radius: 15px 30px 15px 80px;    
+    position: relative;
+    z-index: 40;
+}
+
+.task-content::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: solid 3px #FFE313;
+    border-radius: 15px 30px 15px 80px;
+    position: absolute;
+    bottom: 15px;
+    left: -13px;
+    z-index: 45;
+}
+
+
+/* Що ми робимо? */
+
+.proceed-container {
+    padding-top: 135px;
+}
+
+.proceed-container h2 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+.item-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 70px;
+}
+
+
+.item-grid div:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+
+.item-grid div:nth-child(5) {
+   grid-column-start: -1;
+   grid-column-end: -3;
+   grid-row-start: -3;
+   grid-row-end: -1;
+  
+}
+
+
+.item-content img {
+    margin: 0 auto;
+}
+
+.item-content h3 {
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* Цінності - Принципи */
+
+.values {
+    padding-top: 200px;
+}
+
+.values-container {
+    width: 100%;
+    display: flex;
+}
+
+.values-content {
+    color: #152546;
+    width: 25%;
+}
+
+.values-icon {
+    width: 100%;
+    
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon-text h4 {
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: end;
+}
+
+
+.values-content h3 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.values-pic {
+    width: 50%;
+}
+
+.values-pic img {
+    margin: 0 auto;
+}
+
+.icon-text-r {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon-text-r h4 {
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: end;
+}
+
+/* Команда */
+
+.team-container h2 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 170px 0px 70px;
+}
+
+.team-content {
+    color: #152546;
+}
+
+
+.team-card h4 {
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team-card img {
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+.team-card h5 {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.team-card .social {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.team-content-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+
+/* Долучайтесь - subscribe */
+
+.subscribe {
+    padding-top: 165px;
+}
+
+.subscribe-container {
+    text-align: center;
+}
+
+.subscribe-container h4 {
+    font-family: Playfair Display;
+    font-size: 120px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.1;
+    text-align: center;
+}
+
+.subscribe-container p {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #152546;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subscribe-container a {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #152546;
+    padding: 17px 66px;
+    background-color: #FFE313;
+    border-radius: 15px 25px 15px 60px;
+}
+
+.subscribe-content {
+    position: relative;
+    bottom: 120px;
+}
+
+.subscribe-container .btn {
+    margin-left: 80px;
+}
+
+.subscribe-container .btn::after {
+    content: url(../img/arrows\ 1.png);
+    position: relative;
+    left: 35px;
+}
+
+/* Новини */
+
+.news-title h2 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 100px 0px 50px;
+}
+
+.news-card {
+    width: 360px;
+    background-color: #fff;
+    box-shadow: -3px 6px 20px -3px #152546;
+    border-radius: 15px 30px 15px 50px; 
+}
+
+.data-day {
+    position: relative;
+    width: 85px;
+    text-align: center;
+    background-color: #FFE313;
+    border-radius: 10px 25px 14px 30px;
+    top: 86px;
+    right: 12px;
+}
+
+.news-card p {
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.card-content {
+    padding: 27px 20px 40px;
+}
+
+.card-content a {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFE313;    
+}
+
+.card-content a::after {
+    content: url(../img/Arrow\ r.png); 
+    margin-left: 10px;       
+}
+
+.data-day p {
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.data-day p span {
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.flex-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+}
+
+.contact {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+}
+
+.google-map {
+    width: 50%;
+}
+
+.contact-container {
+    width: 50%;
+    background-color: #152546;
+    padding: 270px 0px;
+}
+
+.contact-content {
+    padding-left: 80px;
+}
+
+.contact-content h4 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+.tel-mail {
+    font-family: roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+    padding: 70px 0px;
+}
+
+.tel-mail a {
+    font-family: roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+.security h6 {
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;   
+    color: #fff;
+}
+
+.security a {
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;   
+    color: #FFE313;
+}
+
+.social {
+    padding-top: 30px;
+    display: flex;
+}
+
+.social a {
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
